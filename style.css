@@ -1,0 +1,365 @@
+/*header start*/
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 15px 0;
+    
+
+
+}
+.container{
+    width: 80%;
+   
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    
+    float: left;
+}
+.logo img{
+    width: 100%;
+
+}
+.menu{
+    width: 75%;
+    
+    float: right;
+    margin-top: 15px;
+
+}
+.menu ul{
+    list-style: none;
+    float: right;
+
+}
+.menu ul li{
+    float: left;
+
+   
+
+}
+.menu ul li a{
+    font-family:sans-serif ;
+    font-size: 18px;
+    font-weight:bold ;
+    color:rgb(62, 62, 131) ; 
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline block;
+    text-transform: capitalize;
+}
+.menu ul li:last-child a{padding-right: 0}
+.menu ul li a:hover{color: darkred;}
+    /*header end*/
+    /*banner start*/
+.banner{
+    background-image:url(../img/business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.b_content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;}
+   
+.b_content h1{
+    font-family:sans-serif ;
+    font-size: 67px;
+    font-weight: 700;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 25px;
+   
+}
+.b_content p{
+    font-family:sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.b_content button{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+    /*banner end*/
+/*how it works section start*/
+.hiw{
+    background-color: white;
+    overflow: hidden;
+}
+.hiw_contain{
+    padding: 60px 0;
+}
+.hiw_header{
+    width: 70%;
+    font-family: sans-serif;
+    padding: 10px 0 70px ;
+    margin: 0 auto;
+}
+.hiw_header h1{
+    text-align: center;
+    font-size: 35px;
+    line-height: 51px;
+    font-variant: unicase;
+}
+.hiw_header p{
+    text-align: center;
+    font-size: 17px;
+    line-height: 37px;}
+._3hiw{overflow: hidden;}
+
+.hiw_1{
+   
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    margin-right: 40px;
+    padding-bottom: 75px;
+   
+    
+}
+.hiw_1 img{
+    width: 50%;
+    margin: 0px 75px 16px;
+}
+.hiw_1 p{
+    width: 79%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px 36px;
+    text-align: center;
+}
+/*how it work section end*/
+/*video section start*/
+.v_section{
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+.v_text{
+    width: 49%;
+    float: left;
+    padding: 150px 35px 119px;
+}
+.v_text h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 39px;
+    padding: 14px 0px 18px;
+}
+
+.v_text p{
+    width: 498px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line height: 30px;
+    padding-bottom: 34px;}
+.v_text button{
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 21px;
+    border-radius: 5px;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.v_video{
+    float: left;
+    padding: 175px 0px 175px;
+}
+.v_video img{
+    width: 450px;
+    box-shadow:white;
+}
+/*video section end*/
+/*features section start*/
+.feature{
+    overflow: hidden;
+    padding: 75px 0;
+}
+.f_element{
+    background-color: white;
+    
+   /* border: 1px solid;*/
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin: 16px;
+    overflow: hidden
+}
+
+
+.f_element img{
+    width: 50px;
+    margin: 20px 157px;
+}
+
+.f_element h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 7px 46px;
+    text-align: center;
+}
+.f_element p{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 22px 27px;
+}
+.f_button{
+    width: 100%;
+}
+.f_button button{
+    width: 22%;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 7px;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin: 71px 469px;
+}
+.f_button button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+/*features section end*/
+/*footer top section start*/
+.t_footer{
+    background-color: rgb(32, 32, 32);
+}
+.contact_us{
+    
+    width: 33.3%;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    color: white;
+    padding: 75px 0;
+}
+.contact_us h1{
+    color: #fe0000;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.c_phone{
+    margin: 20px 0px 10px 0;
+}
+
+.social_icon a{}
+.social_icon a img{
+    margin: 32px 14px 0px 0;
+    width: 29px;
+}
+
+
+.contact_us img{
+    width: 22px;
+    float: left;
+}
+.contact_us p{
+    margin: 0px 0 0 32px;
+    font-family: sans-serif;
+}
+.contact_us p:hover{
+    color: #fe0000;
+}
+
+.u_link{
+    margin: 20px 0;
+}
+.u_link a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    margin: 67px 0;
+    line-height: 28px;
+}
+.u_link a:hover{
+    color: #fe0000;
+}
+
+.u_link p{
+    margin: 0 0 41px 0;
+    line-height: 25px;
+}
+.u_link p:hover{
+    color: white;
+}
+.button{
+    background-color: red;
+    /* border: 3px solid white; */
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px 0px white;
+    margin: 3px;
+}
+.email{
+    width: 150px;
+    height: 42px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0 10px;
+}
+.button button{
+    padding: 0px 8px;
+    background-color: red;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.button button a{
+    
+}
+
+
+/*footer top section end*/
+/*footer start*/
+footer{
+    background-color: gray;
+}
+.f_content{
+    width: 60%;
+    margin: 15px auto;
+}
+.f_content p{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+.f_content p a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+/*footer end*/
